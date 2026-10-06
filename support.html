@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sideline Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --text: #1c1c1e;
+    --muted: #6e6e73;
+    --accent: #c8102e;
+    --rule: #e5e5ea;
+    --card: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --text: #f2f2f7;
+      --muted: #98989f;
+      --accent: #ff6b6b;
+      --rule: #2c2c2e;
+      --card: #1c1c1e;
+    }
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .intro {
+    font-size: 18px;
+    color: var(--muted);
+    margin-bottom: 32px;
+  }
+  .contact-card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 40px;
+  }
+  .contact-card a {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .question {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .answer {
+    color: var(--muted);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sideline Support</h1>
+  <p class="intro">Need help with Sideline? Here's how to reach us, and answers to a few common questions.</p>
+
+  <div class="contact-card">
+    Email <a href="mailto:brent.whiteman@gmail.com">brent.whiteman@gmail.com</a> and we'll get back to you.
+  </div>
+
+  <h2>Common questions</h2>
+
+  <p class="question">How do I invite family members?</p>
+  <p class="answer">Open the Family tab and tap Share — send the invite link however you'd like (text, email, etc.). Whoever opens it on their iPhone joins your shared calendar automatically.</p>
+
+  <p class="question">How do I stop seeing a calendar someone shared with me?</p>
+  <p class="answer">Tap the calendar icon in the top-left of any tab to open the calendar picker, and turn off any shared calendar you'd rather not see. You can ask whoever shared it with you to remove your access entirely at any time.</p>
+
+  <p class="question">Is my data private?</p>
+  <p class="answer">Yes — everything syncs through your own iCloud account. Sideline has no servers of its own and can't see your data. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <p class="question">An invite link isn't working, or a shared calendar isn't showing up.</p>
+  <p class="answer">Open Settings inside the app and check "Sharing Diagnostics" — it logs exactly what happened the last time this device tried to join a shared calendar, which is usually enough to spot what went wrong. If not, email us with what it says.</p>
+
+  <p class="question">I found a bug, or have an idea for the app.</p>
+  <p class="answer">Open Settings inside the app and tap "Send Feedback" — it's the fastest way to reach us, since it includes your app version and device info automatically.</p>
+</main>
+</body>
+</html>
